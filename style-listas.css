@@ -1,0 +1,88 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding: 2rem;
+}
+
+main{
+    background-color: bisque;
+    padding: 1.5rem;
+    border: 2px solid #635a0a91;
+    width: 60%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    font-size: clamp(1rem, 4vw, 2rem);
+    margin-bottom: 1.5rem;
+    color: sienna;
+}
+
+h2{
+    background-color: burlywood;
+    font-size: clamp(0.9rem, 3.5vw, 1.5rem);
+    text-decoration: underline;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+    text-align: center;
+    color: #3e2f1c;
+}
+
+ul, ol{
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: clamp(0.85rem, 3.2vw, 1.1rem);
+    color: #3e2f1c;
+}
+
+li{
+    margin-bottom: 0.4rem;
+}
+
+.hobbies, .receitas{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid sienna;
+    border-radius: 6px;
+    background-color: #f5deb370;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: sienna;
+    background-color: burlywood;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover{
+    background-color: #d2a679;
+}
+
+nav.topo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
